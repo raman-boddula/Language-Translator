@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="https://www.shareicon.net/data/2016/11/22/854967_logo_512x512.png">
+    <title>Translator</title>
     <style>
         *{
             background-color: #FBE9E7;
@@ -94,28 +95,3 @@
 </body>
 </html>
 <script type="text/javascript" src="script.js"></script>
-<!-- <script>
-    var output = document.getElementById('output');
-    async function getDetails()
-    {
-
-    var inp = document.getElementById('inp_val').value;
-
-    var out = document.getElementById('out_val').value;
-
-    let input = document.getElementById('input').value;
-    
-    const res = await fetch("https://libretranslate.de/translate",
-    {
-	method: "POST",
-	body: JSON.stringify({
-		q:`${input}`,
-		source: `${inp}`,
-		target: `${out}`
-	}),
-	headers: { "Content-Type": "application/json" }
-    });
-    var data = await res.json();
-    output.value=JSON.parse(JSON.stringify(data.translatedText));
-    }
-</script> -->
